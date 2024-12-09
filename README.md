@@ -6,9 +6,10 @@ Nicolas Antonio Rojas Bustos, 21.295.708-9, nicolas.rojas11@alumnos.ucn.cl, para
 Ramses Balthazar Quintanilla Paez, 21.620.464-6, ramses.quintanilla@alumnos.ucn.cl, paralelo C2
 
 -------------------------------------------------------------------------------------------------------------------------
-lineas para compilar y ejecutar en la terminal:
-g++ -o main Tablero.cpp main.cpp
-./main
+
+    lineas para compilar y ejecutar en la terminal:
+    g++ -o main Tablero.cpp main.cpp
+    ./main
 -------------------------------------------------------------------------------------------------------------------------
 Como funciona el codigo:
 
