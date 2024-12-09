@@ -42,7 +42,6 @@ vector<vector<char>> Tablero::Marcador(int lugar, vector<vector<char>> tablero, 
     int col = (lugar - 1) % 3;
     if (tablero[fil][col] != 'X' && tablero[fil][col] != 'O') {
         tablero[fil][col] = marcadorActual;
-        cout<<marcadorActual<<endl;
         return tablero;
     }
     return tablero;
@@ -92,9 +91,7 @@ void Tablero::ejecucionJuego(vector<vector<char>> tablero) {
         if (lugar < 1 || lugar > 9) {
             cout << "Lugar invalido, reingrese\n";
             i--;
-        }
-
-        if (!verificador(lugar, tablero, marcadorActual)) {
+        } else if (!verificador(lugar, tablero, marcadorActual)) {
             cout << "Lugar invalido, reingrese\n";
             i--;
         } else if (verificador(lugar, tablero, marcadorActual)) {
