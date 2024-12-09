@@ -4,8 +4,6 @@
 using namespace std;
 
 class tablero {
-    private:
-        int estado;
     public:
-        tablero(int estado);
-}
+        char[][] crearTablero();
+};
