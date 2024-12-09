@@ -28,5 +28,3 @@ el algoritmo MiniMax busca explorar y encontrar el puntaje mayor y menor, lo que
       / | \     / | \     /|\
      /  |  \   /  |  \   / | \
     O1  O2 O3 O1 O2 O3 O1 O2 O3
-   /|\ /|\ /|\ /|\ /|\ /|\ /|\ /|\
-  . . . . . . . . . . . . . . . . .
