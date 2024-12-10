@@ -19,6 +19,7 @@ int main() {
                 tab->ejecucionJuego(tablero);
                 break;
             case 2:
+                tab->ejecucionJuegoIA(tablero);
                 break;
             case 3:
                 break;
@@ -31,6 +32,6 @@ int main() {
         }
     }
     delete tab;
-    
+
     return 0;
 }
